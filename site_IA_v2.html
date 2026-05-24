@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça Mucugê, na Chapada Diamantina - BA: história, pontos turísticos e belezas naturais.">
+    <title>Mucugê - BA | Chapada Diamantina</title>
+    
+    <!-- W3.CSS + Google Fonts + Estilo customizado -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #F9F6F0;
+            color: #2E3B2C;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://experitour.com/wp-content/uploads/2020/04/1280px-Chapada_diamantina..jpg') center/cover no-repeat;
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+            border-radius: 0 0 30px 30px;
+            margin-bottom: 2rem;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+        }
+        .section-title {
+            background-color: #2A5C38;
+            color: white;
+            padding: 0.8rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            letter-spacing: 1px;
+        }
+        .w3-card {
+            border-radius: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: white;
+            height: 100%;
+        }
+        .w3-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px -10px rgba(0,0,0,0.2);
+        }
+        .w3-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .w3-card:hover img {
+            transform: scale(1.05);
+        }
+        .card-content {
+            padding: 1rem;
+        }
+        .card-content h5 {
+            font-weight: 600;
+            color: #2A5C38;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-content i {
+            color: #D97A2B;
+        }
+        .btn-ver {
+            background-color: #D97A2B;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            padding: 0.4rem 1.2rem;
+            font-size: 0.8rem;
+            margin-top: 0.8rem;
+            display: inline-block;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn-ver:hover {
+            background-color: #b85e1a;
+            color: white;
+        }
+        footer {
+            background-color: #2A5C38;
+            color: #F9F6F0;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+            border-radius: 30px 30px 0 0;
+        }
+        footer a {
+            color: #FFD966;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .info-box {
+            background: white;
+            border-left: 6px solid #D97A2B;
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .section-title { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero / Cabeçalho com imagem -->
+    <div class="hero">
+        <h1>✨ Mucugê – BA ✨</h1>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">Portal da Chapada Diamantina, onde a história encontra a natureza.</p>
+    </div>
+
+    <div class="w3-container w3-padding-32" style="max-width: 1200px; margin: auto;">
+        
+        <!-- Sobre a cidade -->
+        <div class="info-box">
+            <h2 style="color:#2A5C38;"><i class="fas fa-map-marker-alt"></i> Sobre Mucugê</h2>
+            <p>Mucugê é um município brasileiro do estado da Bahia, localizado na Chapada Diamantina. 
+               Localiza-se a uma latitude 13º00'19" sul e a uma longitude 41º22'15" oeste, 
+               estando a uma altitude de <strong>983 metros</strong>. Sua população na estimativa de 2024 do IBGE 
+               era de <strong>12.650 habitantes</strong>, distribuídos por uma área de 2.462,153 km².
+            </p>
+            <p><i class="fas fa-cloud-sun"></i> Clima ameno de montanha, com médias entre 15°C e 24°C.</p>
+            <p><i class="fas fa-info-circle"></i> Fonte: 
+                <a href="https://pt.wikipedia.org/wiki/Mucug%C3%AA" target="_blank" style="color:#D97A2B;">Wikipedia</a>
+            </p>
+        </div>
+        
+        <!-- Seção A Cidade -->
+        <div class="w3-center">
+            <div class="section-title"><i class="fas fa-city"></i> A Cidade</div>
+        </div>
+        <div class="w3-row-padding w3-margin-top">
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="imagens/centro_hist.jpg" alt="Conjunto arquitetônico de Mucugê">
+                    <div class="card-content">
+                        <h5><i class="fas fa-archway"></i> Conjunto arquitetônico e paisagístico</h5>
+                        <a href="#" class="btn-ver">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="imagens/centro_hist1.jpg" alt="Casarão Alpina">
+                    <div class="card-content">
+                        <h5><i class="fas fa-building"></i> Casarão Alpina</h5>
+                        <a href="#" class="btn-ver">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="imagens/centro_hist2.jpg" alt="Rua enfeitada para festa junina">
+                    <div class="card-content">
+                        <h5><i class="fas fa-music"></i> Festa Junina no Centro</h5>
+                        <a href="#" class="btn-ver">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Seção Pontos Turísticos -->
+        <div class="w3-center w3-margin-top">
+            <div class="section-title"><i class="fas fa-camera-retro"></i> Pontos Turísticos</div>
+        </div>
+        <div class="w3-row-padding w3-margin-top">
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="imagens/centro.jpg" alt="Centro de Mucugê">
+                    <div class="card-content">
+                        <h5><i class="fas fa-store"></i> Centro Histórico</h5>
+                        <a href="#" class="btn-ver">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="imagens/cemiterio.jpg" alt="Cemitério Bizantino">
+                    <div class="card-content">
+                        <h5><i class="fas fa-church"></i> Cemitério Bizantino</h5>
+                        <a href="#" class="btn-ver">Explorar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="imagens/cachoeira.jpg" alt="Cachoeira da Piabinha">
+                    <div class="card-content">
+                        <h5><i class="fas fa-water"></i> Cachoeira da Piabinha</h5>
+                        <a href="#" class="btn-ver">Explorar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Crédito das imagens -->
+        <div class="w3-panel w3-pale-yellow w3-round-large w3-padding">
+            <p><i class="fas fa-copyright"></i> Fonte das imagens: 
+                <a href="https://www.ferias.tur.br/fotos/853/mucuge-ba.html" target="_blank">Férias Tur</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p><i class="fas fa-heart" style="color:#FFD966;"></i> Chapada Diamantina – coração da Bahia</p>
+        <p>Prefeitura Municipal de Mucugê | Turismo e Cultura</p>
+        <p>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> &nbsp;|&nbsp;
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        </p>
+        <small>© 2026 – Desenvolvido para amar Mucugê</small>
+    </footer>
+
+</body>
+</html>
